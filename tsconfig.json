@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "./tsconfig.json"
+  ],
+  "include": ["packages/*", "./scripts", "./config"],
+  "exclude": ["public", ".cache"],
+  "compilerOptions": {
+    "paths": {
+      "@co-design/*": ["packages/co-design-*/src"]
+    }
+  }
+}
