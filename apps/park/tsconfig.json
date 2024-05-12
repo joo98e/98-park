@@ -11,7 +11,7 @@
   "compilerOptions": {
     "jsx": "preserve",
     "baseUrl": ".",
-    "rootDir": "src",
+    "rootDir": ".",
     "isolatedModules": true,
     "paths": {
       "@/*": [
